@@ -310,7 +310,7 @@ function game_run(){
     if(Fly1EnemyFlee){
         game_win();
     }
-    game_ctx.drawImage(background,0,0,game_ctx.canvas.width,game_ctx.canvas.height);
+    //game_ctx.drawImage(background,0,0,game_ctx.canvas.width,game_ctx.canvas.height);
     
     
     for(let i=0;i<MusBeat.length;i++){
